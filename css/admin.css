@@ -1,0 +1,179 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+.tab-content {
+    height: 100vh;
+}
+#upload {
+    height: auto;
+}
+.sidebar {
+    height: auto;
+    width: 250px;
+    background-color: #28a745;
+    color: white;
+    padding: 30px;
+    box-sizing: border-box;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.sidebar h1 {
+    font-size: 24px;
+    margin: 0;
+}
+.sidebar p {
+    font-size: 12px;
+    margin: 5px 0 20px 0;
+}
+.sidebar a {
+    display: block;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.sidebar a:hover {
+    font-weight: bold;
+    background-color: #26813b;
+}
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+.card-container {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    min-width: 112%;
+}
+.card {
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card .icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+}
+.card h3 {
+    margin: 0;
+    font-size: 18px;
+}
+.card .value {
+    font-size: 32px;
+    margin: 10px 0;
+}
+.card .change {
+    font-size: 14px;
+}
+.card.sales {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+}
+.card.orders {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+.card.visitors {
+    background: linear-gradient(135deg, #43e97b, #38f9d7);
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    width: 168%;
+}
+
+table {
+    min-width: 85%;
+    max-width: 100%;
+    border-collapse: collapse;
+}
+
+.wraptabel {
+    width: 168%;
+    max-width: 168%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.container {
+    min-width: 288%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.uploadberita {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="file"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
